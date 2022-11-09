@@ -1,0 +1,33 @@
+#Command 1 - git status - shows us what files has changed
+#Command 2 - git add (file name) - adds files to be committed
+#Command 3 - git commit -m "whatever comments you want to make" - Will be visible in the repository
+#Command 4 - git push - sends to the remote repository
+
+
+
+
+
+''' ''' = block
+A Loop can run as long as the statement is While True
+
+for = loops 
+make a 10 X 10 cube using Loops (any charachter, must use loops) For and While loops
+while loops
+        x = 0
+while (x < 10):
+    x = x + 1
+    print(x)  
+
+    Define a Function
+    def printMe(str):
+        print(str)
+        return
+        
+
+10.18.2022
+#Homework
+using the login above, add a while loop to make the 
+system keep asking for a user
+
+Float has decimal places
+intiger doesnt have decimal places
