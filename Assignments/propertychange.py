@@ -15,6 +15,7 @@ Which property would you like to change?
 3 Resistance 95
 
 Loop until user is happy
+
 git commands to save files
 1. make sure you are in the root pythin folder
 2. git status - tell us about any changes in our directory
