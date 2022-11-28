@@ -1,5 +1,5 @@
 #Command 1 - git status - shows us what files has changed
-#Command 2 - git add (file name) - adds files to be committed
+#Command 2 - git add filename - adds files to be committed, add file name one at a time.
 #Command 3 - git commit -m "whatever comments you want to make" - Will be visible in the repository
 #Command 4 - git push - sends to the remote repository
 
