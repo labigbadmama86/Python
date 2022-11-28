@@ -47,11 +47,9 @@ for pet in pets:
   print(pet)
 
 x = 0
-i = 0
 while (x < 10):
   x = x + 1
-  i = x
-  print(x * i)
+  print(x)
 
 
 

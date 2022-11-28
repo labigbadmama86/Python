@@ -1,0 +1,41 @@
+10/10/22
+Data types - intiger, float, string
+using print statement
+
+10/11/22
+Accessing parts of strings
+lists, tuples, dictionaries
+for a while loop
+
+10/17/22
+Built in functions like: absolute value, ceil, floor, compare, max, min
+creating a functions
+10/18/22
+did a login example
+
+10/24/22
+Booleans (True/False), modules
+if statements
+Magic 8 Ball app (random message)
+Powerball app
+
+10/25/22
+Grocery list app
+
+11/7/22
+Rounding
+Try catch
+
+11/8/22
+Created the GitHub
+
+11/14/22
+reviewing our Property Change assignment
+
+11/15/22
+Objects = description of something
+Files - Saving, reading, writing data
+
+11/21/22 - No Class
+11/22/22 - No Class
+
