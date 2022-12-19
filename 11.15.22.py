@@ -10,7 +10,7 @@ class PersonA:
 
 person = PersonA()
 print(person.name,person.lastName)
-
+# Constructor
 class Person:
     def __init__(self, age, name, height, lastName):
         self.age = age
@@ -27,6 +27,7 @@ person2 = Person (33, "Olivia", 60, "Aguillon")
 class Bills:
 #_init_ is our class constructor
 # self can be named anything we want(Pizza)
+#WHen data is passed to it, it assigns the given data to the associated properties of our class
     def __init__(self, rent, electric, water, gas, phone):
         self.rent = rent
         self.electric = electric

@@ -1,6 +1,9 @@
 #while
-'''name = "Joe"
-while (name != "munch") and (name !="Isa")
+from random import randint
+
+
+name = "Joe"
+while (name != "munch") and (name != "Isa")
     print ("Your not my child!")
 
 age = 14
@@ -10,7 +13,7 @@ elif age < 65:
     cantsmoke = False
 else:
     cantsmoke = True
-    '''
+    
 
 messages = {1 : "Not Today", 2: "Try again later", 3: "Definitely Not!", 4: "There's a chance", 5: "Yes"}
 
@@ -26,7 +29,7 @@ def getNumber(numbers):
     i = 0 
     while i <= numbers:
         numbersToReturn.append(randint(1,65))
-        i = += 1    # i = i + 1
+        i = i + 1    # i = i + 1
     return numbersToReturn
 
 def playPowerball():
@@ -34,7 +37,7 @@ def playPowerball():
 
 
 
-# Boolean Values True of False "Used on the Login Funcction"
+# Boolean Values True of False "Used on the Login Function"
 evenNumberList = ["0", "2", "4", "6", "8"]
 myNumber = 226
 

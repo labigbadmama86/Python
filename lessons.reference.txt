@@ -42,3 +42,10 @@ Files - Saving, reading, writing data
 11/28/22 - reviewing homework, 
 11/29/22 - 
 
+12/5/22 - Reviewing homework
+12/6/22 - Class/Estimator
+
+12/12/22 - Reviewing homework
+Homework - Think of something we want to build and suggest on the Python
+12/13/22 - Review topics
+
