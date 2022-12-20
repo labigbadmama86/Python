@@ -29,15 +29,7 @@ clear = lambda: os.system('cls') #Clears the terminal
 
 clear() # Clearing the screen when running.
 #Players
-numberPlayers = 0 #saving # of players(numberPlayers)
-
-def askPlayerCount():
-    print("How many players?")
-    players = input()
-    if players.isdigit(): #looks for a #
-        return  int(players)# returns # of players
-    else:
-        askPlayerCount()#asks for # of players again
+numberPlayers = 2 #saving # of players(numberPlayers)
 
 names = [] # Saving input (names)
 
@@ -51,26 +43,18 @@ def playerName():
         names.append(PlayerName) #saving to the names dictionary
 
 def numberOfPlayers():
-    #print(len(names))
-    #print(numberPlayers)
     while len (names) < numberPlayers: #Will re run playerName fuction till all names are entered
         playerName()
     print(names)
 
-
-numberPlayers = askPlayerCount() #Allows us to type # of players entered
-#playerName()
 numberOfPlayers() 
 
 #Random RPS selection
 rps = {1 : "Rock", 2 : "Paper", 3 : "Scissors"}
-#randomNumber = randint(1,3)
-#print (rps[randomNumber])
 
 def randomGenerator():
     randomNumber = randint(1,3)
     print (rps[randomNumber])
-#randomGenerator()
 
 def randomPlayerObjects(): 
     clear()
@@ -79,6 +63,35 @@ def randomPlayerObjects():
         randomGenerator() #Calls out randomGenerator function
 
 randomPlayerObjects()
+
+
+
+
+
+
+
+
+
+
+
+'''def Rock(a,b):
+    if "Rock" is True:
+        "Rock" > "Scissors"
+        "Rock" < "Paper"
+    else:
+        return False
+
+def Scissors():
+    if "Scissors" is True:
+        "Scissors" > "Paper"
+        "Scissors" < "Rock"
+
+def Paper():
+    if "Paper" is True:
+        "Paper" > "Rock"
+        "Paper" < "Scissors"'''
+
+
 
 
 
